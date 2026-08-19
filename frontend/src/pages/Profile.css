@@ -1,0 +1,61 @@
+.profile-page {
+  padding: 40px 0 64px;
+  max-width: 900px;
+}
+
+.profile-page h1 {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+}
+
+.profile-sub {
+  color: var(--color-slate-500);
+  margin-bottom: 28px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 720px) {
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-full {
+  grid-column: 1 / -1;
+}
+
+.profile-card-title {
+  font-size: 1.0625rem;
+  margin-bottom: 4px;
+}
+
+.profile-card-desc {
+  color: var(--color-slate-500);
+  font-size: 0.875rem;
+  margin-bottom: 16px;
+}
+
+.resume-current {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-primary-50);
+  color: var(--color-primary-700);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+  word-break: break-all;
+}
+
+.resume-upload-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
