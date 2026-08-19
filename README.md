@@ -3,6 +3,10 @@
 **CareerFlow** is a full-stack job & internship application tracker that helps students, fresh graduates, and job seekers manage their entire job search — applications, interviews, statuses, and resumes — in one clean, organized place.
 
 ---
+# Live Demo
+Frontend URL: https://career-flow-17pz.vercel.app
+
+Backend URL: https://career-flow-puce.vercel.app/api/health
 
 ## Table of contents
 
