@@ -1,3 +1,7 @@
+// This file is the entry point for local development and for traditional
+// (non-serverless) hosting such as Render or Railway — run with `npm run dev`
+// or `npm start`. On Vercel, this file is NOT used: Vercel imports
+// `src/app.js` directly as a serverless function and never calls `.listen()`.
 require('dotenv').config();
 const app = require('./app');
 const connectDB = require('./config/db');
